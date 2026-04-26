@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "diolez.hitregistry.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ClientPlayNetworkHandlerMixin",
+    "ClientPlayerEntityMixin",
+    "PlayerAttackMixin",
+    "ItemUsageMixin",
+    "GameRendererMixin",
+    "MinecraftClientMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
